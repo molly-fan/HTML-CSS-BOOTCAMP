@@ -107,13 +107,18 @@ p{
 .bottom-container{
     color: #F4F4F2;
     margin: 20px auto 0 auto;
-    padding: 50px 0 20px 0;
+    padding: 50px 0 80px 0;
     text-align: center;
     background-color: #8397aa;
 }
 
 .footer-link{
-    padding: 0 20px 0 20px;
+    display: inline-block;
+    width:80px;
+    height: 30px;
+    padding: 10px 20px 10px 20px;
+    line-height: 30px;
+
 }
 
 .btn {
@@ -121,8 +126,9 @@ p{
  -moz-border-radius: 20px;
  height: 10px;
  line-height: 10px;
+
+ font-family: Georgia; 
  color: #E8E8E8;
- font-family: Georgia;
  width: 160px;
  font-size: 20px;
  padding: 18px;
@@ -149,6 +155,7 @@ p{
 a{
  color: #293B5F;
  font-weight: bold; 
+    
 }
 a:link {
   text-decoration: none;
@@ -159,6 +166,9 @@ a:visited {
 }
 
 a:hover {
+    border-radius: 10px;
+     background: #69839F;
+     color: #E8E8E8;
   text-decoration: underline;
 }
 
@@ -171,6 +181,7 @@ a:active {
     font-size: 0.8em;
     color: rgba(232, 232, 232, 0.3);
 }
+
 .iconlink{
     color: rgba(232, 232, 232, 0.3);
 }
